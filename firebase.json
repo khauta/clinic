@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/tabibma",
+    "public": "public",
     "ignore": [
       "firebase.json",
       "**/.*",
