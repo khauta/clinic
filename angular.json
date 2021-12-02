@@ -6,7 +6,7 @@
     "version": 1,
     "newProjectRoot": "projects",
     "projects": {
-        "tabibma": {
+        "primecare": {
             "projectType": "application",
             "schematics": {
                 "@schematics/angular:application": {
@@ -20,7 +20,7 @@
                 "build": {
                     "builder": "@angular-devkit/build-angular:browser",
                     "options": {
-                        "outputPath": "dist/tabibma",
+                        "outputPath": "dist/primecare",
                         "index": "src/index.html",
                         "main": "src/main.ts",
                         "polyfills": "src/polyfills.ts",
@@ -65,18 +65,18 @@
                 "serve": {
                     "builder": "@angular-devkit/build-angular:dev-server",
                     "options": {
-                        "browserTarget": "tabibma:build"
+                        "browserTarget": "primecare:build"
                     },
                     "configurations": {
                         "production": {
-                            "browserTarget": "tabibma:build:production"
+                            "browserTarget": "primecare:build:production"
                         }
                     }
                 },
                 "extract-i18n": {
                     "builder": "@angular-devkit/build-angular:extract-i18n",
                     "options": {
-                        "browserTarget": "tabibma:build"
+                        "browserTarget": "primecare:build"
                     }
                 },
                 "test": {
@@ -114,11 +114,11 @@
                     "builder": "@angular-devkit/build-angular:protractor",
                     "options": {
                         "protractorConfig": "e2e/protractor.conf.js",
-                        "devServerTarget": "tabibma:serve"
+                        "devServerTarget": "primecare:serve"
                     },
                     "configurations": {
                         "production": {
-                            "devServerTarget": "tabibma:serve:production"
+                            "devServerTarget": "primecare:serve:production"
                         }
                     }
                 },
@@ -129,5 +129,5 @@
             }
         }
     },
-    "defaultProject": "tabibma"
+    "defaultProject": "primecare"
 }

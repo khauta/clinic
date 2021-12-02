@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/tabibma",
+    "public": "dist/primecare",
     "ignore": [
       "firebase.json",
       "**/.*",

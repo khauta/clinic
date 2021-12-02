@@ -20,7 +20,7 @@ export class BaseHeaderComponent implements OnInit {
     this.mobileSideBarOpened = ! this.mobileSideBarOpened;
   }
 
-  get inTop() : boolean{
+  get inTop(): boolean{
     return !(document.documentElement.scrollTop || document.body.scrollTop);
   }
 
